@@ -1,0 +1,89 @@
+<svg viewBox="0 0 110 115" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ella membaca buku">
+  <title>Ella membaca — Halaman Materi Saintara</title>
+
+  <!-- Shadow lantai -->
+  <ellipse cx="55" cy="112" rx="30" ry="5" fill="#1A2E3A" fill-opacity="0.1"/>
+
+  <!-- ── BADAN (duduk, lebih bulat ke bawah) ── -->
+  <ellipse cx="55" cy="88" rx="32" ry="22" fill="#4DA8DA"/>
+
+  <!-- ── KAKI DEPAN (pendek, khas gajah duduk) ── -->
+  <!-- Kaki kiri depan -->
+  <ellipse cx="36" cy="105" rx="11" ry="8" fill="#3A90C2"/>
+  <!-- Kaki kanan depan -->
+  <ellipse cx="74" cy="105" rx="11" ry="8" fill="#3A90C2"/>
+
+  <!-- ── BUKU (di atas kaki / pangkuan) ── -->
+  <!-- Halaman kiri buku terbuka -->
+  <rect x="26" y="82" width="27" height="28" rx="3" fill="#FFFDE7"/>
+  <rect x="26" y="82" width="27" height="28" rx="3" fill="none" stroke="#e8d87a" stroke-width="1"/>
+  <!-- Garis teks halaman kiri -->
+  <line x1="30" y1="90" x2="49" y2="90" stroke="#c9b84a" stroke-width="1.2"/>
+  <line x1="30" y1="95" x2="49" y2="95" stroke="#c9b84a" stroke-width="1.2"/>
+  <line x1="30" y1="100" x2="44" y2="100" stroke="#c9b84a" stroke-width="1.2"/>
+  <line x1="30" y1="105" x2="49" y2="105" stroke="#c9b84a" stroke-width="1.2"/>
+
+  <!-- Halaman kanan buku terbuka -->
+  <rect x="55" y="82" width="27" height="28" rx="3" fill="#E8F5E9"/>
+  <rect x="55" y="82" width="27" height="28" rx="3" fill="none" stroke="#81c784" stroke-width="1"/>
+  <!-- Gambar kecil di halaman kanan (ilustrasi materi) -->
+  <ellipse cx="68" cy="92" rx="8" ry="6" fill="#4DA8DA" fill-opacity="0.3"/>
+  <line x1="59" y1="101" x2="79" y2="101" stroke="#81c784" stroke-width="1.2"/>
+  <line x1="59" y1="105" x2="74" y2="105" stroke="#81c784" stroke-width="1.2"/>
+
+  <!-- Spine / lipatan tengah buku -->
+  <rect x="52" y="81" width="4" height="30" rx="2" fill="#FFD66B"/>
+  <!-- Lekukan halaman (efek terbuka) -->
+  <path d="M54 82 Q55 96 54 111" stroke="#e0b840" stroke-width="1" fill="none"/>
+
+  <!-- ── LENGAN DEPAN (memeluk buku dari bawah) ── -->
+  <!-- Lengan kiri: dari badan ke bawah buku kiri -->
+  <path d="M36 88 Q30 90 28 98 Q27 103 34 106" stroke="#3A90C2" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <!-- Lengan kanan: dari badan ke bawah buku kanan -->
+  <path d="M74 88 Q80 90 82 98 Q83 103 76 106" stroke="#3A90C2" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+  <!-- ── TELINGA kiri ── -->
+  <ellipse cx="18" cy="50" rx="15" ry="20" fill="#3A90C2"/>
+  <ellipse cx="18" cy="50" rx="9"  ry="13" fill="#80D8C3"/>
+
+  <!-- ── TELINGA kanan ── -->
+  <ellipse cx="92" cy="50" rx="15" ry="20" fill="#3A90C2"/>
+  <ellipse cx="92" cy="50" rx="9"  ry="13" fill="#80D8C3"/>
+
+  <!-- ── KEPALA ── -->
+  <circle cx="55" cy="44" r="29" fill="#4DA8DA"/>
+
+  <!-- Highlight kepala -->
+  <ellipse cx="46" cy="33" rx="10" ry="6" fill="white" fill-opacity="0.13"/>
+
+  <!-- ── BELALAI (mengarah ke buku, membaca) ── -->
+  <path d="M44 58 Q38 64 40 72 Q41 78 47 78" stroke="#3A90C2" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+  <circle cx="47" cy="78" r="4.5" fill="#3A90C2"/>
+
+  <!-- ── PIPI blush ── -->
+  <ellipse cx="35" cy="50" rx="6.5" ry="4" fill="#FFD66B" fill-opacity="0.58"/>
+  <ellipse cx="75" cy="50" rx="6.5" ry="4" fill="#FFD66B" fill-opacity="0.58"/>
+
+  <!-- ── MATA kiri (sedikit menyipit fokus baca) ── -->
+  <ellipse cx="44" cy="40" rx="6.5" ry="7" fill="white"/>
+  <circle  cx="45" cy="41" r="4.2" fill="#1A2E3A"/>
+  <circle  cx="46.5" cy="39.5" r="1.5" fill="white"/>
+
+  <!-- ── MATA kanan ── -->
+  <ellipse cx="66" cy="40" rx="6.5" ry="7" fill="white"/>
+  <circle  cx="67" cy="41" r="4.2" fill="#1A2E3A"/>
+  <circle  cx="68.5" cy="39.5" r="1.5" fill="white"/>
+
+  <!-- ── MULUT senyum kecil (konsentrasi) ── -->
+  <path d="M48 54 Q55 60 62 54" stroke="#1A2E3A" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+
+  <!-- ── KACAMATA baca (tipis, elegan) ── -->
+  <ellipse cx="44" cy="40" rx="9" ry="8" fill="none" stroke="#FFD66B" stroke-width="1.8" stroke-opacity="0.8"/>
+  <ellipse cx="66" cy="40" rx="9" ry="8" fill="none" stroke="#FFD66B" stroke-width="1.8" stroke-opacity="0.8"/>
+  <!-- Bridge kacamata -->
+  <line x1="53" y1="40" x2="57" y2="40" stroke="#FFD66B" stroke-width="1.8" stroke-opacity="0.8"/>
+  <!-- Gagang kiri -->
+  <line x1="35" y1="38" x2="28" y2="36" stroke="#FFD66B" stroke-width="1.5" stroke-opacity="0.7"/>
+  <!-- Gagang kanan -->
+  <line x1="75" y1="38" x2="82" y2="36" stroke="#FFD66B" stroke-width="1.5" stroke-opacity="0.7"/>
+</svg>

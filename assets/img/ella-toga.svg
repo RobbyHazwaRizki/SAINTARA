@@ -1,0 +1,86 @@
+<svg viewBox="0 0 110 125" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ella merayakan hasil">
+  <title>Ella Wisuda — Halaman Hasil Saintara</title>
+
+  <!-- Shadow -->
+  <ellipse cx="55" cy="121" rx="28" ry="4.5" fill="#1A2E3A" fill-opacity="0.1"/>
+
+  <!-- ═══ KONFETI BACKGROUND ═══ -->
+  <rect x="15" y="8"  width="6" height="6" rx="2" fill="#FFD66B" transform="rotate(20,18,11)"  fill-opacity="0.8"/>
+  <rect x="85" y="5"  width="5" height="5" rx="1" fill="#80D8C3" transform="rotate(-15,87,7)"  fill-opacity="0.8"/>
+  <rect x="8"  y="30" width="5" height="5" rx="2" fill="#E05555" transform="rotate(35,10,32)"  fill-opacity="0.7"/>
+  <rect x="96" y="28" width="6" height="6" rx="2" fill="#4DA8DA" transform="rotate(-25,99,31)" fill-opacity="0.7"/>
+  <circle cx="12" cy="58" r="3" fill="#FFD66B" fill-opacity="0.6"/>
+  <circle cx="98" cy="55" r="2.5" fill="#80D8C3" fill-opacity="0.6"/>
+  <rect x="20" y="18" width="4" height="4" rx="1" fill="#a78bfa" transform="rotate(10,22,20)"  fill-opacity="0.7"/>
+  <rect x="88" y="16" width="4" height="4" rx="1" fill="#f97316" transform="rotate(-30,90,18)" fill-opacity="0.7"/>
+
+  <!-- ═══ TOGA (topi wisuda) ═══ -->
+  <!-- Papan toga -->
+  <rect x="28" y="8" width="54" height="9" rx="3" fill="#1A2E3A"/>
+  <!-- Tutup bulat kepala -->
+  <ellipse cx="55" cy="18" rx="24" ry="11" fill="#1A2E3A"/>
+  <!-- Hiasan atas (button) -->
+  <circle cx="55" cy="8" r="4" fill="#FFD66B"/>
+  <!-- Tali toga (kiri) -->
+  <path d="M55 12 Q42 20 38 30 Q36 38 40 42" stroke="#FFD66B" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <circle cx="40" cy="43" r="4" fill="#FFD66B"/>
+
+  <!-- Telinga kiri -->
+  <ellipse cx="18" cy="54" rx="15" ry="20" fill="#3A90C2"/>
+  <ellipse cx="18" cy="54" rx="10" ry="13" fill="#80D8C3"/>
+
+  <!-- Telinga kanan -->
+  <ellipse cx="92" cy="54" rx="15" ry="20" fill="#3A90C2"/>
+  <ellipse cx="92" cy="54" rx="10" ry="13" fill="#80D8C3"/>
+
+  <!-- Badan -->
+  <ellipse cx="55" cy="84" rx="33" ry="25" fill="#4DA8DA"/>
+
+  <!-- Tangan kanan angkat bintang -->
+  <path d="M76 78 Q86 68 88 56 Q89 50 85 48" stroke="#3A90C2" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <!-- Bintang di tangan -->
+  <text x="82" y="47" font-size="16" text-anchor="middle" font-family="sans-serif">⭐</text>
+
+  <!-- Tangan kiri natural -->
+  <path d="M34 78 Q26 72 24 64" stroke="#3A90C2" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+  <!-- Kaki kiri -->
+  <rect x="30" y="98" width="16" height="14" rx="8" fill="#3A90C2"/>
+  <!-- Kaki kanan -->
+  <rect x="64" y="98" width="16" height="14" rx="8" fill="#3A90C2"/>
+
+  <!-- Kepala -->
+  <circle cx="55" cy="48" r="30" fill="#4DA8DA"/>
+
+  <!-- Highlight kepala -->
+  <ellipse cx="46" cy="36" rx="10" ry="6" fill="white" fill-opacity="0.13"/>
+
+  <!-- Pipi (excited - lebih terang) -->
+  <ellipse cx="34" cy="55" rx="7" ry="4.5" fill="#FFD66B" fill-opacity="0.75"/>
+  <ellipse cx="76" cy="55" rx="7" ry="4.5" fill="#FFD66B" fill-opacity="0.75"/>
+
+  <!-- Mata (sangat excited - besar) -->
+  <ellipse cx="44" cy="45" rx="7.5" ry="8.5" fill="white"/>
+  <circle  cx="45" cy="46" r="5" fill="#1A2E3A"/>
+  <circle  cx="47"  cy="44" r="1.8" fill="white"/>
+  <!-- Mata kanan -->
+  <ellipse cx="66" cy="45" rx="7.5" ry="8.5" fill="white"/>
+  <circle  cx="67" cy="46" r="5" fill="#1A2E3A"/>
+  <circle  cx="69"  cy="44" r="1.8" fill="white"/>
+
+  <!-- Belalai melingkar bahagia -->
+  <path d="M41 59 Q30 64 28 76 Q27 84 34 85 Q42 86 44 78" stroke="#3A90C2" stroke-width="6.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Mulut besar senyum bahagia -->
+  <path d="M44 60 Q55 72 66 60" stroke="#1A2E3A" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Gigi kecil (detail lucu) -->
+  <rect x="50" y="62" width="5" height="5" rx="2" fill="white"/>
+  <rect x="56" y="62" width="5" height="5" rx="2" fill="white"/>
+
+  <!-- Ijazah / scroll di tangan kiri -->
+  <rect x="16" y="66" width="18" height="13" rx="3" fill="white" stroke="#e2edf5" stroke-width="1"/>
+  <line x1="19" y1="71" x2="31" y2="71" stroke="#4DA8DA" stroke-width="1.5"/>
+  <line x1="19" y1="74" x2="28" y2="74" stroke="#4DA8DA" stroke-width="1.5"/>
+  <!-- Ribbon merah ijazah -->
+  <rect x="14" y="66" width="3" height="13" rx="1.5" fill="#E05555"/>
+</svg>

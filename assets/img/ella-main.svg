@@ -1,0 +1,54 @@
+<svg viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ella si Gajah">
+  <title>Ella — Maskot Saintara</title>
+
+  <!-- Shadow bawah -->
+  <ellipse cx="55" cy="106" rx="28" ry="5" fill="#1A2E3A" fill-opacity="0.12"/>
+
+  <!-- Telinga kiri (belakang) -->
+  <ellipse cx="20" cy="58" rx="17" ry="22" fill="#3A90C2"/>
+  <ellipse cx="20" cy="58" rx="11" ry="14" fill="#80D8C3"/>
+
+  <!-- Telinga kanan (belakang) -->
+  <ellipse cx="90" cy="58" rx="17" ry="22" fill="#3A90C2"/>
+  <ellipse cx="90" cy="58" rx="11" ry="14" fill="#80D8C3"/>
+
+  <!-- Badan -->
+  <ellipse cx="55" cy="80" rx="34" ry="27" fill="#4DA8DA"/>
+
+  <!-- Kaki kiri -->
+  <rect x="28" y="92" width="16" height="14" rx="8" fill="#3A90C2"/>
+  <!-- Kaki kanan -->
+  <rect x="66" y="92" width="16" height="14" rx="8" fill="#3A90C2"/>
+
+  <!-- Kepala -->
+  <circle cx="55" cy="48" r="30" fill="#4DA8DA"/>
+
+  <!-- Highlight kepala (glossy) -->
+  <ellipse cx="46" cy="35" rx="10" ry="6.5" fill="white" fill-opacity="0.13"/>
+
+  <!-- Belalai -->
+  <path d="M41 58 Q32 64 31 74 Q30 82 37 83" stroke="#3A90C2" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <circle cx="37" cy="83" r="5" fill="#3A90C2"/>
+
+  <!-- Pipi blush kiri -->
+  <ellipse cx="35" cy="55" rx="6.5" ry="4" fill="#FFD66B" fill-opacity="0.55"/>
+  <!-- Pipi blush kanan -->
+  <ellipse cx="75" cy="55" rx="6.5" ry="4" fill="#FFD66B" fill-opacity="0.55"/>
+
+  <!-- Mata kiri -->
+  <ellipse cx="44" cy="44" rx="7" ry="8" fill="white"/>
+  <circle  cx="45" cy="45" r="4.5" fill="#1A2E3A"/>
+  <circle  cx="46.5" cy="43.5" r="1.6" fill="white"/>
+
+  <!-- Mata kanan -->
+  <ellipse cx="66" cy="44" rx="7" ry="8" fill="white"/>
+  <circle  cx="67" cy="45" r="4.5" fill="#1A2E3A"/>
+  <circle  cx="68.5" cy="43.5" r="1.6" fill="white"/>
+
+  <!-- Mulut senyum -->
+  <path d="M47 58 Q55 66 63 58" stroke="#1A2E3A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Aksesori: dasi kupu-kupu kecil -->
+  <path d="M50 72 Q55 68 60 72 Q55 76 50 72Z" fill="#FFD66B" fill-opacity="0.9"/>
+  <circle cx="55" cy="72" r="2" fill="#E8B84B"/>
+</svg>
